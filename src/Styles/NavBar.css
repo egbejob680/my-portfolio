@@ -1,0 +1,80 @@
+.NavBar{
+
+}
+.brand-name span{
+color: var(--Primary-Color, #DEB500);
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.navbar {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 300px;
+    align-items: center;
+    border-radius: 8px;
+
+    border: 1px solid var(--Primary-Color, #DEB500);
+  }
+  .brand-name{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    gap: 300px;
+ 
+  }
+  
+  .navbar-brand {
+    margin-right: 2rem;
+  }
+  
+  .navbar-brand img {
+    height: 3rem; /* Adjust logo size as needed */
+  }
+  
+  .navbar-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-left: 1rem;
+  }
+  
+  .nav-link {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    background-color: var(--body-1, #A7933E); 
+    border-radius: 5px;
+    padding: 4px;
+  }
+  .nav-link.active {
+    color: #fff; /* Or your desired active color */
+    background-color: var(--Primary-Color, #DEB500); /* Or your desired active background color */
+    border-radius: 5px;
+    padding: 4px;
+  }

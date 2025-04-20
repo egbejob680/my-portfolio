@@ -1,0 +1,127 @@
+.about {
+    color: #fff; /* White text */
+    padding: 5rem 0;
+  }
+  
+  .About-container {
+    max-width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    margin-left: 300px;
+  }
+  
+  .content {
+    
+  }
+  
+  .name {
+    margin-right: 395px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 92px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .skills {
+    margin-right: 400px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .skills span {
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+  }
+  
+.web-dev{
+    color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.ui-Design{
+
+  }
+  p {
+    width: 680px;
+    height: 89px;
+    flex-shrink: 0;
+    color: var(--body-1, #A7933E);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .button {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    padding: 13px 18px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: var(--Primary-Color, #DEB500);
+  }
+  .btn-socia{
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    align-items: center;
+    gap: auto;
+  }
+  .profile-image {
+    width: 292px;
+    height: 292px;
+    flex-shrink: 0;
+    border-radius: 292px;
+    border: 10px solid var(--Primary-Color, #DEB500);
+    background: url() lightgray 50% / cover no-repeat, #D9D9D9;
+  }
+  
+  .profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .social-icons {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+  }
+  
+  .social-icons a {
+    margin: 0 1rem;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #ffc107;
+  }
+  
+
+.eclipse-top {
+  width: 50%; /* Adjust as needed */
+  height: 50%; /* Adjust as needed */
+   background: linear-gradient(180deg, #573d0a 100%,  #f3d3d3 0%);
+  position: absolute;
+  top: -10px;
+  right: 0;
+  border-radius: 1000px;
+  z-index: -1;
+}
+
+.eclipse-bottom {
+  bottom: -25%; /* Adjust as needed */
+  right: 25%; /* Adjust as needed */
+}
